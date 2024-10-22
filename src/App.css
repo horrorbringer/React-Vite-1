@@ -95,3 +95,10 @@ input:focus,
 input:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+/* home */
+.wrap-header{
+  text-align: center;
+}
+.header1{
+  margin-top: 2rem;
+}
