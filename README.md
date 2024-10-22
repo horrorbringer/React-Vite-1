@@ -9,6 +9,5 @@ Currently, two official plugins are available:
 
 
 
-`cd react-vite-2
-npm i or ipm install
-`
+- `cd react-vite-2`
+- `npm i or ipm install`
