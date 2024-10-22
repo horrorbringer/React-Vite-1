@@ -123,6 +123,23 @@ input:focus-visible {
 .img-list img{
   width: 100%;
 }
+
+@media screen and (max-width:1000px) {
+  .card{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width:800px) {
+  .card{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media  screen and (max-width:650px) {
+  .card{
+    grid-template-columns: 1fr;
+  }
+}
+
 .line{
   margin: 7rem 3rem;
 }
