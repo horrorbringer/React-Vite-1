@@ -1,11 +1,14 @@
+import { Card } from "./Card";
+import { Footer } from "./Footer";
+
 const Contact = () => {
   return (
     <>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
+      <header className="header-contact">
+        <h1>This is Contact</h1>
+      </header>
+      <Card/>
+      <Footer/>
     </>
   );
 };

@@ -1,4 +1,5 @@
 import '../App.css';
+import { Footer } from './Footer';
 const Login = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const Login = () => {
           Dont have an account <a href='#'> Register</a>
         </p>
       </article>
+      <Footer/>
     </>
   );
 };
