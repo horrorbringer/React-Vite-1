@@ -56,8 +56,12 @@ li{
 .list-input > input{
   height: 50px;
   border:none;
+  color: gray;
   border-bottom: 2px solid  rgb(117, 106, 106);
   background-color: transparent;
+}
+.list-input input:focus{
+  outline: none;
 }
 .card-login p{
   font-size: 0.7rem;

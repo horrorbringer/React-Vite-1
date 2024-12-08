@@ -1,9 +1,22 @@
 import { sourceImageList } from "../assets/dataImages.js";
 export const Card = () => {
+  const dataImgs = sourceImageList.map((p) => {
+    return `
+      <div className="card-item">
+        <div className="img-title">
+          <h1>${p.title}</h1>
+        </div>
+        <div className="img-list">
+          <img src="${p.imgSrc}" />
+        </div>
+      </div>
+    	`;
+  }).join("");
   return (
     <div>
       {/* card */}
       <article className="card">
+        {/* {dataImgs} */}
         <div className="card-item">
           <div className="img-title">
             <h1>{sourceImageList[0].title}</h1>
@@ -26,7 +39,7 @@ export const Card = () => {
           </div>
           <div className="img-list">
             <img src={sourceImageList[2].imgSrc} />
-          </div>
+          </div> 
         </div>
         <div className="card-item">
           <div className="img-title">
