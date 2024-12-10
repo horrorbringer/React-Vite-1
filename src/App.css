@@ -19,6 +19,7 @@
 a{
   text-decoration: none;
   font-size: 2rem;
+  color: white;
 }
 li{
   display: flex;
@@ -115,16 +116,16 @@ input:focus-visible {
   align-items: center;
   justify-content: center;
   background-color: rgba(128, 128, 128,0.6);
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(255, 255, 255,0.2);
 }
 .img-list{
-  max-width: 270px;
-  border-radius: 20px;
+  max-width: 260px;
   overflow: hidden;
 }
 .img-list img{
+  border-radius: 20px;
   width: 100%;
 }
 
