@@ -2,8 +2,8 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
-import Header from "./header";
 import Login from "./Login";
+import Header from "./Header";
 function Navigation() {
   return (
     <div>
